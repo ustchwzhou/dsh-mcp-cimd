@@ -1,0 +1,16 @@
+{
+    "scope":  "mcp",
+    "grant_types":  [
+                        "authorization_code",
+                        "refresh_token"
+                    ],
+    "response_types":  [
+                           "code"
+                       ],
+    "client_id":  "https://ustchwzhou.github.io/dsh-mcp-cimd/cimd.json",
+    "client_name":  "DSH local (DeepSeek Harness)",
+    "token_endpoint_auth_method":  "none",
+    "redirect_uris":  [
+                          "http://127.0.0.1:3333/callback"
+                      ]
+}
